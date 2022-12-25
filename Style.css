@@ -1,0 +1,271 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fffaf0;
+  }
+
+
+.zaglavlje{
+    
+    justify-content: space-between;
+    display: flex;
+    background-color: red;
+    margin: auto;
+    padding: 20px;
+    align-items: center;
+    height: 50px;
+    
+    
+   
+}
+
+.zaglavlje img{
+    width: 200px;
+    height: 100px;
+}
+
+.zaglavlje div a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    margin-left: 20px;
+
+}
+
+.zaglavlje div a:hover{
+    background-color: crimson;
+    transition: 1s ease-out;
+    text-decoration: none;
+    color: #1A0905;
+    
+}
+
+.pocetna div{
+    align-items: center;
+    float: right;
+    width: 50%;
+    height: 800px;
+    
+    
+}
+
+.pocetna div h2{
+    text-align: center;
+    
+    
+
+}
+
+.pocetna div p {
+    margin: 5% 5%;
+    text-align: justify;
+}
+
+#np{
+    text-align: center;
+    font-weight: bold;
+}
+
+.levaStr{
+    background-repeat: no-repeat;
+    background-image:url("tamnija.jpg");
+    background-size:  100% 800px ;
+    width: 50%;
+    height: 800px;
+    float: left;
+    color: white;
+    
+    
+    
+}   
+
+
+
+
+
+.levaStr h1{
+    text-align: justify;
+    padding-left: 25%;
+    padding-top: 50%;
+
+    
+}
+
+.podnozje{
+    clear: both;
+    text-align: center;
+    
+    font-size: medium;
+    background-color: red;
+    width: 100%;
+    color: antiquewhite;
+    bottom: 0;
+
+}
+
+
+h2{
+    text-align: center;
+    padding-top: 15px;
+}
+
+#galerija{
+    margin: 20px 80px;
+}
+
+div.galerija{
+    margin: 45px 25px;
+    border: 1px solid gray;
+    float: left;
+    width: 180px;
+    height: 180px;
+}
+
+
+.galerija img{
+    width: 180px;
+    height: 180px;
+    
+}
+
+.galerija .desc {
+    padding: 15px;
+    text-align: center;
+}
+
+form label{
+    font-size: 15px;
+    margin: 200px 0px 0px 0px;
+    font-weight: bold;
+ 
+}
+
+input[type=text]{
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 25px;
+    font-size: 15px;
+    padding: 10px 20px;
+}
+
+input[type=email]{
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 25px;
+    font-size: 15px;
+    padding: 10px 20px;
+    margin: 10;
+
+}
+
+textarea{
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 150px;
+    font-size: 15px;
+    padding: 10px 20px;
+}
+
+
+input[type=submit]{
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 50px;
+    width: 150px;
+    font-size: 15px;
+    padding: 10px 20px;
+    background-color: white;
+    display: block;
+    margin: 20px auto;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.glavnastrana{
+    text-align: center;
+    background-color: #fffaf0;
+}
+
+.glavnastrana h1{ 
+    text-align: center;
+
+}
+
+input[type=submit]:hover{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
+    
+}
+
+.finger{
+    background-image: url("decree.png");
+    background-size: 100%;
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    margin: 20px auto;
+
+    animation-name: finger;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes finger {
+
+    100%{
+        transform:rotate(45deg);
+    }
+    
+}
+
+@media screen and (min-width: 320px) and (max-width: 380px) {
+    
+    .zaglavlje{
+        padding: 5px;
+    }
+
+    .zaglavlje img{
+        width:50px;
+        height: 50px;
+    }
+
+    .zaglavlje div a{
+        padding: 5px;
+        margin-left: 5px;
+    }
+
+    .pocetna{
+        font-size: small;
+    }
+
+    .levaStr h1{
+        text-align: center;
+        padding-left: 15px;
+    }
+
+    .podnozje{
+        font-size: small;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
